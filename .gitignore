@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+.env
+.DS_Store
+# data & outputs
+data/raw/
+data/images/
+outputs/
+*.tar
+*.zip
+# weights & large media
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.mp4

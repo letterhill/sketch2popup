@@ -1,0 +1,15 @@
+numpy
+opencv-python-headless
+scikit-image
+scipy
+pyyaml
+pandas
+tqdm
+matplotlib
+imageio
+imageio-ffmpeg
+imagehash
+trimesh
+pyrender
+pytest
+nbstripout

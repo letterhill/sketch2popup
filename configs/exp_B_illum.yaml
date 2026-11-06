@@ -1,0 +1,17 @@
+name: exp_B_illum
+io:
+  max_side: 1024
+  bbox_margin: 0.05
+illumination:
+  enabled: true
+  method: divide        # divide | clahe
+  bg_kernel: 51
+segment:
+  method: adaptive      # adaptive | sam
+  block_size: 31
+  C: 10
+postprocess:
+  enabled: false
+  open_kernel: 3
+  close_kernel: 5
+  hole_max_area_ratio: 0.02

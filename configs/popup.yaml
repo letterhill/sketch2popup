@@ -1,0 +1,6 @@
+thickness: 0.15         # 캐릭터 크기 대비 두께
+profile: sqrt           # 거리변환 → 높이 함수
+motion: bounce          # bounce | sway
+n_frames: 48
+fps: 24
+renderer: pyrender      # pyrender | heightmap (fallback)
